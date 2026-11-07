@@ -6,9 +6,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of personal AI agents and the tool stacks they use to act on a person's life and work.
+A curated list of named personal AI agents and the tool stacks they use to act on a person's life and work.
 
-This list records agents that can take actions for a person — through connectors, skills, a browser, a computer, or a phone — and the surfaces and extensions around them. Coding-agent stacks (terminal harnesses, coding IDEs, and coding-oriented MCP servers and skills) are listed in [Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding).
+This list is for a named personal agent that can act on a person's behalf over time: its own computer or persistent runtime, connectors or apps, background work, and approval for sensitive actions. Examples are Grok Bot, Dots, and Claude Duet. A general chat assistant is not an entry, even when it has tools, connectors, computer use, or a cowork mode — so ChatGPT, Claude, Gemini, and Microsoft Copilot are not listed in place of the company's agent product. Coding-agent stacks (terminal harnesses, coding IDEs, and coding-oriented MCP servers and skills) are listed in [Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding).
 
 🌐 **Live Website**: [https://0xWelt.github.io/Awesome-Personal-Agents/](https://0xWelt.github.io/Awesome-Personal-Agents/)
 
@@ -75,7 +75,7 @@ flowchart TB
 
 | Category | Description | Location |
 | --- | --- | --- |
-| Harnesses | Products that run a personal agent — desktop and computer agents, chat products with tools, dedicated agents, self-hosted frameworks, mobile and voice, and multi-agent teams. | [contents/harnesses/](contents/harnesses/) |
+| Harnesses | Named personal agents you run — desktop and computer agents, dedicated agent products, self-hosted frameworks, mobile and voice, and multi-agent teams. Not general chat assistants. | [contents/harnesses/](contents/harnesses/) |
 | Life Surfaces | Services an agent operates for a person — communication, time, files, commerce, travel, and money. | [contents/life-surfaces/](contents/life-surfaces/) |
 | Extensions | What plugs into a harness — connectors, MCP servers, skills and playbooks, and browser or computer use. | [contents/extensions/](contents/extensions/) |
 | Memory and Continuity | How an agent keeps context across sessions. | [contents/memory-and-continuity/](contents/memory-and-continuity/) |
@@ -100,7 +100,9 @@ Short description of the tool.
 
 Required frontmatter is `name` and `link`. Optional `tags` are short labels such as `desktop`, `web`, `mobile`, `connectors`, `computer-use`, `skills`, or `routines`. Do not add a `command` field. Use the canonical product URL, without UTM, referral, or affiliate parameters.
 
-Put each product in the one subcategory that best matches how people launch it, and mention other modes in the body. The tool is picked up automatically when the website builds. Prefer adding a separate file over editing an existing one — it keeps PRs small and conflict-free.
+Include a product only when it is a named personal agent with its own computer or persistent runtime, connectors or apps, background work, and approval for sensitive actions. Do not add ChatGPT, Claude, Gemini, or Microsoft Copilot as stand-ins for that company's agent. Do not add Claude Code, Gemini CLI, or GitHub Copilot; those belong in Awesome-Vibe-Coding.
+
+Put each product in the one subcategory that best matches how people launch that product. A named agent reached inside a host app is still its own entry. Mention other modes in the body. The tool is picked up automatically when the website builds. Prefer adding a separate file over editing an existing one — it keeps PRs small and conflict-free.
 
 ## Contributors
 

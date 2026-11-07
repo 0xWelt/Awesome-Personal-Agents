@@ -1,4 +1,4 @@
 ---
 title: Desktop and Computer
 ---
-Personal agents you launch as a desktop app, or that do their work through a computer or browser on your machine or in the cloud.
+Named personal agents you launch as a desktop app, or that do their work on a computer of their own. A general chat app with a desktop build does not belong here.

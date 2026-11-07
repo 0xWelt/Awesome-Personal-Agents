@@ -1,4 +1,4 @@
 ---
 title: Mobile, Voice, and Wearable
 ---
-Personal agents whose primary runtime is a phone, a voice interface, or a wearable.
+Named personal agents whose main way in is a phone, a voice product, or a wearable. A phone app that is only a general chat assistant does not belong here.

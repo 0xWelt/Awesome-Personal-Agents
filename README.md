@@ -8,7 +8,7 @@
 
 A curated list of named personal AI agents, grouped by who provides the persistent runtime.
 
-This list includes two kinds of named personal agent. One is a vendor cloud product with a computer in that vendor's cloud, such as Grok Bot, Dots, or Claude Duet. The other is a self-hosted, always-on agent you run yourself, such as OpenClaw or Hermes Agent, where the persistent runtime is your machine plus a gateway or service. Either way it needs connectors or tools, background work, and some approval or policy control. A general chat assistant is not an entry, even when it has tools, connectors, computer use, or a cowork mode — so ChatGPT, Claude, Gemini, and Microsoft Copilot are not listed in place of the company's agent product. Coding-agent stacks (terminal harnesses, coding IDEs, and coding-oriented MCP servers and skills) are listed in [Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding).
+This list includes two kinds of named personal agent. One is a vendor product whose persistent runtime the vendor provides, including a cloud computer and a desktop app, such as Grok Bot, Dots, or Claude Duet. The other is a self-hosted, always-on agent you run yourself, such as OpenClaw or Hermes Agent, where the persistent runtime is your machine plus a gateway or service. Either way it needs connectors or tools, background work, and some approval or policy control. A general chat assistant is not an entry, even when it has tools, connectors, computer use, or a cowork mode — so ChatGPT, Claude, Gemini, and Microsoft Copilot are not listed in place of the company's agent product. Coding-agent stacks (terminal harnesses, coding IDEs, and coding-oriented MCP servers and skills) are listed in [Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding).
 
 🌐 **Live Website**: [https://0xWelt.github.io/Awesome-Personal-Agents/](https://0xWelt.github.io/Awesome-Personal-Agents/)
 
@@ -24,24 +24,11 @@ Named personal agents in this list are grouped by who provides the persistent ru
 ```mermaid
 flowchart TB
     Person["👤 Person"]
+    VendorCloud["☁ Vendor Cloud"]
+    SelfHosted["🏠 Self-hosted"]
 
-    subgraph vendorCloud["☁ Vendor Cloud"]
-        direction LR
-        GrokBot["Grok Bot"]
-        Dots["Dots"]
-        ClaudeDuet["Claude Duet"]
-        Muse["Muse"]
-        Manus["Manus"]
-    end
-
-    subgraph selfHosted["🏠 Self-hosted"]
-        direction LR
-        OpenClaw["OpenClaw"]
-        Hermes["Hermes Agent"]
-    end
-
-    Person --> vendorCloud
-    Person --> selfHosted
+    Person --> VendorCloud
+    Person --> SelfHosted
 ```
 
 ## Categories
@@ -64,7 +51,7 @@ link: https://example.com
 Short description of the tool.
 ```
 
-Required frontmatter is `name` and `link`. Optional `tags` are short labels such as `desktop`, `web`, `mobile`, `connectors`, `computer-use`, `skills`, or `routines`. Do not add a `command` field. Use the canonical product URL, without UTM, referral, or affiliate parameters.
+Required frontmatter is `name` and `link`. Optional `tags` are short labels such as `desktop`, `web`, `mobile`, `connectors`, `computer-use`, `skills`, `routines`, or `legal`. Do not add a `command` field. Use the canonical product URL, without UTM, referral, or affiliate parameters.
 
 Include a product only when it is a named personal agent that can act over time, with a persistent runtime (a vendor cloud computer, or your machine plus a gateway or service), connectors or tools, background or unattended work, and some approval or policy control. That covers vendor cloud agents and self-hosted agents such as OpenClaw and Hermes Agent. Do not add ChatGPT, Claude, Gemini, or Microsoft Copilot as stand-ins for that company's agent. Do not add Claude Code, Codex, or Gemini CLI; those belong in Awesome-Vibe-Coding.
 

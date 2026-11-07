@@ -8,7 +8,12 @@ This list records named personal agents that can act on a person's digital life,
 
 ## Inclusion rule
 
-Include a product only if it is a named personal agent that can act on a person's behalf over time: its own computer or persistent runtime, connectors or apps, background work, and approval for sensitive actions.
+Include a product only if it is a named personal agent that can act on a person's behalf over time. It needs a persistent runtime, connectors or tools, background or unattended work, and some approval or policy control. The runtime can be a computer in the vendor's cloud, or a machine you control plus a gateway or service that stays up.
+
+The list covers both:
+
+- Vendor cloud personal-agent products, such as Grok Bot, Dots, Claude Duet, Muse, and Manus.
+- Self-hosted, local-computer, always-on agents you run yourself, such as OpenClaw and Hermes Agent. File those under `contents/harnesses/self-hosted-and-frameworks/`. They can run shell or code on that machine; record them here as personal agents, not as coding harnesses.
 
 Do not list a general chat product as an entry, even if it has tools, connectors, computer use, or a Cowork or Work mode:
 
@@ -24,7 +29,7 @@ Chat-only companions, enterprise contact-center bots, and a dump of the whole MC
 
 [Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding) is the AI coding stack: coding harnesses, gh/Vercel-class coding platforms, and coding-oriented MCP servers and skills. Leave those there. Claude Code, Gemini CLI, and GitHub Copilot stay in AVC.
 
-Personal-agent products belong here: Grok Bot, Dots, Claude Duet, Muse, and similar named agents. Do not re-list the MCP protocol or the Agent Skills standard as entries; mention them in prose when a product uses them. A dual-use life surface (mail, calendar) can be added later with a life-oriented description. Do not copy AVC entries into this repo.
+Personal-agent products belong here: vendor cloud agents such as Grok Bot, Dots, Claude Duet, and Muse, and self-hosted agents such as OpenClaw and Hermes Agent. Do not re-list the MCP protocol or the Agent Skills standard as entries; mention them in prose when a product uses them. A dual-use life surface (mail, calendar) can be added later with a life-oriented description. Do not copy AVC entries into this repo. Claude Code, Codex, and Gemini CLI stay in AVC even if a self-hosted personal agent can also run code.
 
 ## contents/ conventions
 

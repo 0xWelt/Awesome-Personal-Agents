@@ -38,15 +38,25 @@ Personal-agent products belong here: vendor cloud agents such as Grok Bot, Dots,
 
 ## Life-surface services
 
-Life-surface services do not get folders in this list. If they belong anywhere, they belong in [Awesome-Agent-Services](https://github.com/0xWelt/Awesome-Agent-Services).
+Life-surface fulfillment services belong in [Awesome-Agent-Services](https://github.com/0xWelt/Awesome-Agent-Services), not in this list. Do not add folders for them here.
 
 ## Taxonomy maintenance
 
-Categories must reflect currently listed entries only. Do not reserve empty categories for types that do not exist yet. Whenever you add a new item, re-evaluate whether the current taxonomy still makes sense: if the item does not fit cleanly, create a new category and put it there; if existing categories are unclear, redundant, empty, or broken by the new item, adjust them in the same change and migrate existing entries. Do not keep empty "might need later" categories.
+Design categories from currently listed entries only. Do not reserve empty directories or empty sections for types that do not exist yet.
+
+Whenever you add a new item, re-evaluate whether the current taxonomy still makes sense:
+
+- If the item does not fit a current category cleanly, create a new category and put it there.
+- If existing categories are unclear, draw a distinction without a real difference, are empty shells, or no longer hold after the new item, adjust them in the same change and migrate existing entries.
+- Do not keep empty “might need later” categories.
+
+This applies to both `contents/` directory mode and README heading mode.
+
+On this list, do not create empty categories for life surfaces, extensions, memory, routines, identity, runtimes, or supporting tools.
 
 ## contents/ conventions
 
-- One markdown file per tool under `contents/<category>/`. The categories that exist today are `contents/vendor-cloud/` and `contents/self-hosted/`.
+- One markdown file per tool directly under `contents/<category>/`. The categories that exist today are `contents/vendor-cloud/` and `contents/self-hosted/`. Do not add a subcategory that only repeats the category.
 - Every folder has `_meta.md` with YAML `title:` and a short English description in the body.
 - Tool frontmatter is `name` and `link`. Optional `tags` are short labels. Do not add a `command` field.
 - Links are official and canonical. Strip UTM, referral, or affiliate parameters.

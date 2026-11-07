@@ -1,6 +1,7 @@
 ---
 name: Harvey
 link: https://www.harvey.ai/
+image: https://cdn.sanity.io/images/07s0r5r6/production/9a4b2e0eec438fb56057db128a11ade2c04c01cf-2400x1260.png?w=1200&h=630&fm=jpg&q=95&fit=crop
 tags: [web, connectors, skills, routines, legal]
 ---
 

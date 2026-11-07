@@ -1,6 +1,7 @@
 ---
 name: Sintra
 link: https://sintra.ai/
+image: https://cdn.prod.website-files.com/661d4f6d81ac1042b721396c/6644bb86873663f1db3a68cd_sintra-home-opengraph.jpg
 tags: [web, mobile, connectors]
 ---
 

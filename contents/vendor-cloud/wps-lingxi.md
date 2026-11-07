@@ -1,6 +1,7 @@
 ---
 name: WPS Lingxi
 link: https://www.lingxi.cn/
+image: https://www.lingxi.cn/_astro/share-brand.CcKgSMML.jpg
 tags: [desktop, web, mobile, connectors, computer-use, skills, routines]
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: Marblism
 link: https://www.marblism.com/ai-employees
+image: https://www.marblism.com/api/og?t=AI%20employees%20that%20do%20the%20whole%20job&h=whole%20job&k=AI%20employees&v=4
 tags: [web, connectors, routines]
 ---
 

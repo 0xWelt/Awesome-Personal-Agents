@@ -1,6 +1,7 @@
 ---
 name: Viktor
 link: https://viktor.com/
+image: https://viktor.com/assets/og/home-ai-employee.png
 tags: [web, connectors, computer-use, skills, routines]
 ---
 

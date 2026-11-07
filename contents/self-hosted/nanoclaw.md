@@ -1,6 +1,7 @@
 ---
 name: NanoClaw
 link: https://nanoclaw.dev/
+image: https://nanoclaw.dev/social-preview.jpg
 tags: [desktop, connectors, skills, routines]
 ---
 

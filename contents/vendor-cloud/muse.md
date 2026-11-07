@@ -1,6 +1,7 @@
 ---
 name: Muse
 link: https://muse.ai/
+image: https://muse.ai/images/landing/brand/og-image.jpg?v=3
 tags: [mobile, desktop, connectors, computer-use, skills]
 ---
 

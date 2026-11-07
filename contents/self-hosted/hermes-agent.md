@@ -1,6 +1,7 @@
 ---
 name: Hermes Agent
 link: https://hermes-agent.nousresearch.com/
+image: https://web-assets.nousresearch.com/marketing/80a6b1a7becc8b947717934e1a02410b2a48850e/assets/hermes-agent/og-image.png
 tags: [desktop, connectors, skills, routines]
 ---
 

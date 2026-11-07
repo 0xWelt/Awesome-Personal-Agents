@@ -1,6 +1,7 @@
 ---
 name: Skywork Desktop
 link: https://skywork.ai/desktop/zh/index.html
+image: https://skywork.ai/desktop/assets/skywork-desktop-og.png
 tags: [desktop, computer-use, skills, routines]
 ---
 

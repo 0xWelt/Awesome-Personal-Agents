@@ -1,6 +1,7 @@
 ---
 name: StepFun Desktop
 link: https://www.stepfun.com/download
+image: https://chat.stepfun.com/img/opengraph-image.png
 tags: [desktop, computer-use, skills, routines]
 ---
 

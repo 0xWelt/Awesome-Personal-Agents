@@ -1,6 +1,7 @@
 ---
 name: Dots
 link: https://chatgpt.com/features/dots/
+image: https://images.ctfassets.net/8su2tbn87fck/37YWOTK3AfU1iLm0TFg1CG/3375c0ed4ac3186994bff05e6c2d453a/Orbit_LP_Page_16x9_SEO_v2.png?w=1600&h=900&fit=fill
 tags: [desktop, web, mobile, connectors, computer-use, routines]
 ---
 

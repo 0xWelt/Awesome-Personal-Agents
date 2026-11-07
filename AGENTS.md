@@ -32,13 +32,13 @@ Chat-only companions, enterprise contact-center bots, and a dump of the whole MC
 
 ## Boundary with Awesome-Vibe-Coding
 
-[Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding) is the AI coding stack: coding harnesses, gh/Vercel-class coding platforms, and coding-oriented MCP servers and skills. Leave those there. Claude Code, Gemini CLI, and GitHub Copilot stay in AVC.
+[Awesome-Vibe-Coding](https://github.com/0xWelt/Awesome-Vibe-Coding) (AVC) lists coding harnesses and Lovable-like vibe-coding cloud platforms. Harnesses include Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, CodeBuddy, Cline, and similar products. Vibe-coding platforms include Bolt.new, Replit, Open Lovable, Firebase Studio, and the rest of the web-based builders. AWS, Vercel, Docker, and GitHub are not AVC; they belong in Awesome-Agent-Services.
 
-Personal-agent products belong here: vendor cloud agents such as Grok Bot, Dots, Claude Duet, and Muse, and self-hosted agents such as OpenClaw and Hermes Agent. Do not re-list the MCP protocol or the Agent Skills standard as entries; mention them in prose when a product uses them. Do not copy AVC entries into this repo. Claude Code, Codex, and Gemini CLI stay in AVC even if a self-hosted personal agent can also run code.
+This list (APA) records named personal agents: vendor cloud agents such as Grok Bot, Dots, Claude Duet, and Muse, and self-hosted agents such as OpenClaw and Hermes Agent. Do not re-list the MCP protocol or the Agent Skills standard as entries; mention them in prose when a product uses them. Do not copy AVC entries into this repo. Claude Code, Codex, and Gemini CLI stay in AVC even if a self-hosted personal agent can also run code.
 
-## Life-surface services
+## Boundary with Awesome-Agent-Services
 
-Life-surface fulfillment services belong in [Awesome-Agent-Services](https://github.com/0xWelt/Awesome-Agent-Services), not in this list. Do not add folders for them here.
+[Awesome-Agent-Services](https://github.com/0xWelt/Awesome-Agent-Services) (AAS) is the complete collection of supporting tools and services. That covers fulfillment and transaction services, including life-surface fulfillment (do not add folders for those here); infrastructure and code hosting (AWS, Vercel, Docker, GitHub, and their official CLIs); and code-related supporting tools (context, observability, skill directories, and non-harness MCP servers and skills). The same product must not appear in more than one of APA, AVC, and AAS.
 
 ## Taxonomy maintenance
 

@@ -1,6 +1,7 @@
 ---
 name: ZeroClaw
 link: https://www.zeroclaw.com/
+image: https://www.zeroclaw.com/images/og-card.jpg
 tags: [desktop, connectors, skills, routines]
 ---
 

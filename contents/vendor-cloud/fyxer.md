@@ -1,6 +1,7 @@
 ---
 name: Fyxer
 link: https://www.fyxer.com/
+image: https://ow1gzr0hrrfmt0aq.public.blob.vercel-storage.com/opengraph.jpg
 tags: [web, connectors, routines]
 ---
 

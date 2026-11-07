@@ -1,6 +1,7 @@
 ---
 name: OpenClaw
 link: https://openclaw.ai/
+image: https://openclaw.ai/og-image.png
 tags: [desktop, connectors, skills, routines]
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: Manus
 link: https://manus.im
+image: https://files.manuscdn.com/webapp/media/ogBanner.png
 tags: [web, computer-use, connectors]
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: Lindy
 link: https://www.lindy.ai/
+image: https://cdn.prod.website-files.com/63e15df811f9df22b231e58f/69a20da89a23a65ce1b211c3_3ca1c8cedd19958a4fa76e3387d064a2_Lindy%20OG.jpg
 tags: [web, connectors, skills, routines]
 ---
 

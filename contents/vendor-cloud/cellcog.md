@@ -1,6 +1,7 @@
 ---
 name: CellCog
 link: https://cellcog.ai/
+image: https://cellcog.ai/og-image.png
 tags: [web, connectors, computer-use, routines]
 ---
 

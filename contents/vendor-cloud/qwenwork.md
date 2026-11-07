@@ -1,6 +1,7 @@
 ---
 name: QwenWork
 link: https://qwenwork.ai/
+image: https://img.alicdn.com/imgextra/i2/O1CN01bliABFwf69I5MKiG_!!6000000002964-2-tps-2640-1880.png
 tags: [desktop, web, connectors, computer-use, skills, routines]
 ---
 

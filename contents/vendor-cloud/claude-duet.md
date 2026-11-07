@@ -1,6 +1,7 @@
 ---
 name: Claude Duet
 link: https://claude.com/product/claude-duet
+image: https://claude.com/static/claude-duet/og.jpg
 tags: [mobile, web, connectors, computer-use, skills, routines]
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: Nanobot
 link: https://nanobot.wiki/
+image: https://nanobot.wiki/assets/nanobot_social.png
 tags: [desktop, connectors, skills, routines]
 ---
 

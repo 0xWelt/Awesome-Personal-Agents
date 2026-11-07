@@ -1,6 +1,7 @@
 ---
 name: Kimi Work
 link: https://www.kimi.com/products/kimi-work
+image: https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-06-02/1d8fc8k76rtp4tqdea4ng?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1
 tags: [desktop, computer-use, skills, routines]
 ---
 
